@@ -1,0 +1,46 @@
+.mainCard {
+	display: grid;
+	background-color: #04ccab;
+	border-radius: 1rem;
+	margin: 20px;
+	filter: opacity(80%);
+	text-align: center;
+	color: white;
+	padding: 2rem;
+    font-weight: bold;
+}
+/*Code for mainCard  div in dom.js*/
+/*The filter property in CSS applies graphical effects like blurring or color shifting to an element*/
+
+.locationText {
+	font-size: 1rem;
+	margin: 3rem 0 0 0;
+}
+/*Code for locationText p*/
+.tempText {
+	font-size: 1rem;
+}
+/*Code for tempText p**/
+.descriptionText {
+	font-size: 1rem;
+}
+/*Code for descriptionText p*/
+.secondaryCard {
+	display: grid;
+	border-radius: 1rem;
+	margin: 20px;
+}
+/*Code for secondaryCard div*/
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.6rem;
+	max-height: 200px;
+	background-color: #04ccab;
+	border-radius: 1rem;
+	margin-bottom: 0.5rem;
+	filter: opacity(80%);
+	color: white;
+}
+/*Code for sc elements with class card*/
